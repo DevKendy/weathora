@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathora</title>
+    <link rel="shortcut icon" href="images/rainy-day.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="app">
+    <div class="container">
+        <nav class="weathora">
+            <div class="weathora-nav">
+                <h1><i>Weathora</i></h1>
+                <p>A blend of Weather and Aurora <span> — a name that embodies uniqueness and a futuristic vision. Explore the beauty. </span></p>
+            </div>
+        </nav>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city or country name" spellcheck="false">
+                <div id="searchBtn"><img src="images/search.png" alt="photo"></div>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <img src="images/rainy-day.png" class="weather-icon">
+                <div class="celcius">
+                    <h1 class="temp">22°C <sup></sup></h1>
+                    <span class="span">Raining</span>
+                </div> 
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p class="wind">15 Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
